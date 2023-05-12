@@ -1,0 +1,80 @@
+{
+  "organizationID": "w43Vc6UfM",
+  "partner": "SALESFORCE",
+  "id": "0066S000016R20cQAC",
+  "info": {
+    "salesforceOpportunity": {
+      "Account": {
+        "Name": "AWS",
+        "Website": "www.aws.com",
+        "Industry": "Technology",
+        "PhotoUrl": "/services/images/photo/0016S00003MOWC8QAP",
+        "ShippingAddress": {}
+      },
+      "Owner": {
+        "Name": "Chengjun Yuan",
+        "Email": "chengjun.sf@suger.io"
+      },
+      "OpportunityContactRoles": {
+        "records": [
+          {
+            "Id": "00K6S00000QWiwOUAT",
+            "IsPrimary": true,
+            "ContactId": "0036S00005y4zVrQAI",
+            "Contact": {
+              "Name": "Varun Raghavan",
+              "Email": "varunrag@amazon.com"
+            }
+          }
+        ]
+      },
+      "Opportunity": {
+        "AccountId": "0016S00003MOWC8QAP",
+        "Amount": 12000,
+        "CampaignId": null,
+        "CloseDate": "2023-04-30",
+        "ContactId": "0036S00005y4zVrQAI",
+        "CreatedById": "0056S00000HcpmGQAR",
+        "CreatedDate": "2023-03-02T04:13:47.000+0000",
+        "Description": "this is Aws sale opportunity",
+        "Fiscal": "2023 2",
+        "FiscalQuarter": 2,
+        "FiscalYear": 2023,
+        "ForecastCategory": "Pipeline",
+        "ForecastCategoryName": "Pipeline",
+        "HasOpenActivity": false,
+        "HasOpportunityLineItem": false,
+        "HasOverdueTask": false,
+        "Id": "0066S000016R20cQAC",
+        "IsClosed": false,
+        "IsDeleted": false,
+        "IsWon": false,
+        "LastActivityDate": null,
+        "LastAmountChangedHistoryId": null,
+        "LastCloseDateChangedHistoryId": null,
+        "LastModifiedById": "0056S00000HcpmLQAR",
+        "LastModifiedDate": "2023-03-06T04:39:20.000+0000",
+        "LastReferencedDate": "2023-03-06T21:21:53.000+0000",
+        "LastStageChangeDate": null,
+        "LastViewedDate": "2023-03-06T21:21:53.000+0000",
+        "LeadSource": "Advertisement",
+        "Name": "Aws sale opportunity",
+        "NextStep": "schedule demo",
+        "OwnerId": "0056S00000HcpmGQAR",
+        "Pricebook2Id": null,
+        "Probability": 20,
+        "PushCount": 0,
+        "StageName": "Needs Analysis",
+        "SystemModstamp": "2023-03-06T04:39:20.000+0000",
+        "Type": "New Business",
+        "attributes": {
+          "type": "Opportunity",
+          "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016R20cQAC"
+        }
+      }
+    }
+  },
+  "metaInfo": {},
+  "creationTime": "2023-03-07T00:56:16.652828Z",
+  "lastUpdateTime": "2023-05-09T00:20:01.982762Z"
+}

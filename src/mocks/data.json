@@ -1,0 +1,2204 @@
+[
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016R20cQAC",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "AWS",
+          "Website": "www.aws.com",
+          "Industry": "Technology",
+          "PhotoUrl": "/services/images/photo/0016S00003MOWC8QAP",
+          "ShippingAddress": {}
+        },
+        "Owner": {
+          "Name": "Chengjun Yuan",
+          "Email": "chengjun.sf@suger.io"
+        },
+        "OpportunityContactRoles": {
+          "records": [
+            {
+              "Id": "00K6S00000QWiwOUAT",
+              "IsPrimary": true,
+              "ContactId": "0036S00005y4zVrQAI",
+              "Contact": {
+                "Name": "Varun Raghavan",
+                "Email": "varunrag@amazon.com"
+              }
+            }
+          ]
+        },
+        "Opportunity": {
+          "AccountId": "0016S00003MOWC8QAP",
+          "Amount": 12000,
+          "CampaignId": null,
+          "CloseDate": "2023-04-30",
+          "ContactId": "0036S00005y4zVrQAI",
+          "CreatedById": "0056S00000HcpmGQAR",
+          "CreatedDate": "2023-03-02T04:13:47.000+0000",
+          "Description": "this is Aws sale opportunity",
+          "Fiscal": "2023 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016R20cQAC",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-06T04:39:20.000+0000",
+          "LastReferencedDate": "2023-03-06T21:21:53.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-03-06T21:21:53.000+0000",
+          "LeadSource": "Advertisement",
+          "Name": "Aws sale opportunity",
+          "NextStep": "schedule demo",
+          "OwnerId": "0056S00000HcpmGQAR",
+          "Pricebook2Id": null,
+          "Probability": 20,
+          "PushCount": 0,
+          "StageName": "Needs Analysis",
+          "SystemModstamp": "2023-03-06T04:39:20.000+0000",
+          "Type": "New Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016R20cQAC"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.652828Z",
+    "lastUpdateTime": "2023-05-09T00:20:01.982762Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000014tS1uQAE",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Acme",
+          "Phone": "(212) 555-5555",
+          "Industry": "Manufacturing",
+          "PhotoUrl": "/services/images/photo/0016S00003GWiXcQAL",
+          "ShippingAddress": {
+            "city": "New York",
+            "country": "USA",
+            "postalCode": "31349",
+            "state": "NY",
+            "street": "10 Main Rd."
+          }
+        },
+        "Owner": {
+          "Name": "Chengjun Yuan",
+          "Email": "chengjun.sf@suger.io"
+        },
+        "OpportunityContactRoles": {
+          "records": [
+            {
+              "Id": "00K6S00000QWiuhUAD",
+              "IsPrimary": true,
+              "ContactId": "0036S00005t4NzMQAU",
+              "Contact": {
+                "Name": "Edward Stamos",
+                "Email": "info@salesforce.com",
+                "Phone": "(212) 555-5555",
+                "Title": "President and CEO"
+              }
+            },
+            {
+              "Id": "00K6S00000QWzkxUAD",
+              "ContactId": "0036S00005t4NzLQAU",
+              "Contact": {
+                "Name": "Jon Amos",
+                "Email": "info@salesforce.com",
+                "Phone": "(905) 555-1212",
+                "Title": "Sales Manager"
+              }
+            },
+            {
+              "Id": "00K6S00000QWiwEUAT",
+              "ContactId": "0036S00005t4NzOQAU",
+              "Contact": {
+                "Name": "Leanne Tomlin",
+                "Email": "info@salesforce.com",
+                "Phone": "(212) 555-5555",
+                "Title": "VP Customer Support"
+              }
+            }
+          ]
+        },
+        "Opportunity": {
+          "AccountId": "0016S00003GWiXcQAL",
+          "Amount": 140000,
+          "CampaignId": null,
+          "CloseDate": "2020-08-28",
+          "ContactId": "0036S00005t4NzMQAU",
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2022-11-12T07:02:14.000+0000",
+          "Description": "The deal is at  50% because they are at the sales process stage of evaluating our ROI justification.",
+          "Fiscal": "2020 3",
+          "FiscalQuarter": 3,
+          "FiscalYear": 2020,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000014tS1uQAE",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-10T22:19:50.000+0000",
+          "LastReferencedDate": "2023-04-06T04:56:38.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-04-06T04:56:38.000+0000",
+          "LeadSource": "Trade Show",
+          "Name": "Acme - 1,200 Widgets",
+          "NextStep": "Need estimate",
+          "OwnerId": "0056S00000HcpmGQAR",
+          "Pricebook2Id": null,
+          "Probability": 50,
+          "PushCount": 0,
+          "StageName": "Value Proposition",
+          "SystemModstamp": "2023-03-10T22:19:50.000+0000",
+          "Type": "Existing Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000014tS1uQAE"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.574058Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.010179Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "HUBSPOT",
+    "id": "12263198292",
+    "info": {
+      "hubspotDeal": {
+        "_metadata": {
+          "id": "12263198292"
+        },
+        "associations": {
+          "company_collection__primary": {
+            "items": [
+              {
+                "address": "1 Microsoft Way",
+                "address2": null,
+                "city": "Redmond",
+                "country": "United States",
+                "industry": {
+                  "label": "Capital Markets",
+                  "value": "CAPITAL_MARKETS"
+                },
+                "name": "Contoso Foundation",
+                "state": "WA",
+                "website": "contoso.com"
+              }
+            ]
+          },
+          "contact_collection__deal_to_contact": {
+            "items": [
+              {
+                "company": "HubSpot",
+                "email": "bh@hubspot.com",
+                "firstname": "Brian",
+                "jobtitle": "CEO",
+                "lastname": "Halligan (Sample Contact)",
+                "phone": "+19172341234",
+                "photo": null
+              }
+            ]
+          }
+        },
+        "amount": "648",
+        "dealname": "Test Deal 1",
+        "dealstage": {
+          "value": "qualifiedtobuy",
+          "label": "qualifiedtobuy"
+        },
+        "dealtype": {
+          "value": "newbusiness",
+          "label": "New Business"
+        },
+        "closedate": 1677548855906,
+        "createdate": 1677030481566,
+        "hubspot_owner_id": {
+          "firstname": "Shiman",
+          "lastname": "Guo",
+          "email": "shiman@suger.io",
+          "owner_id": 337139628
+        },
+        "hs_lastmodifieddate": 1677030483001,
+        "hs_deal_stage_probability": 0.4,
+        "hs_analytics_source": {
+          "value": "OFFLINE",
+          "label": "Offline Sources"
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T01:21:15.904196Z",
+    "lastUpdateTime": "2023-03-31T22:21:04.20264Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016Qxb4QAC",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Contoso",
+          "PhotoUrl": "/services/images/photo/0016S00003MOBiHQAX",
+          "ShippingAddress": {}
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003MOBiHQAX",
+          "Amount": 4000,
+          "CampaignId": null,
+          "CloseDate": "2023-03-16",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-03-01T09:01:24.000+0000",
+          "Description": "Customer requires well-trained annotators on complex tasks.",
+          "Fiscal": "2023 1",
+          "FiscalQuarter": 1,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016Qxb4QAC",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": "0086S00002VDBdXQAX",
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-01T09:02:31.000+0000",
+          "LastReferencedDate": "2023-03-17T19:08:39.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-03-17T19:08:39.000+0000",
+          "LeadSource": "Web",
+          "Name": "Data Annotation with Contoso",
+          "NextStep": "Figure out technical requirements",
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 20,
+          "PushCount": 0,
+          "StageName": "Needs Analysis",
+          "SystemModstamp": "2023-03-01T09:02:31.000+0000",
+          "Type": "Existing Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016Qxb4QAC"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.582256Z",
+    "lastUpdateTime": "2023-05-09T00:20:01.989827Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016Qx7EQAS",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Global Media",
+          "Phone": "(905) 555-1212",
+          "Industry": "Media",
+          "PhotoUrl": "/services/images/photo/0016S00003GWiXbQAL",
+          "ShippingAddress": {
+            "city": "Toronto",
+            "country": "Canada",
+            "postalCode": "L4B 1Y3",
+            "state": "Ontario",
+            "street": "150 Chestnut Street"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GWiXbQAL",
+          "Amount": null,
+          "CampaignId": null,
+          "CloseDate": "2023-03-31",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-03-01T04:18:11.000+0000",
+          "Description": null,
+          "Fiscal": "2023 1",
+          "FiscalQuarter": 1,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Omitted",
+          "ForecastCategoryName": "Omitted",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016Qx7EQAS",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-01T09:10:02.000+0000",
+          "LastReferencedDate": "2023-03-07T00:33:10.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-03-07T00:33:10.000+0000",
+          "LeadSource": null,
+          "Name": "BNTV - Subtitle Auto Segmentation",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 0,
+          "PushCount": 0,
+          "StageName": "ABABABABA",
+          "SystemModstamp": "2023-03-01T09:10:02.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016Qx7EQAS"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.620224Z",
+    "lastUpdateTime": "2023-05-07T21:20:01.794047Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000014tS1wQAE",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Acme",
+          "Phone": "(212) 555-5555",
+          "Industry": "Manufacturing",
+          "PhotoUrl": "/services/images/photo/0016S00003GWiXcQAL",
+          "ShippingAddress": {
+            "city": "New York",
+            "country": "USA",
+            "postalCode": "31349",
+            "state": "NY",
+            "street": "10 Main Rd."
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GWiXcQAL",
+          "Amount": 20000,
+          "CampaignId": null,
+          "CloseDate": "2020-12-27",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2022-11-12T07:02:14.000+0000",
+          "Description": "The deal is at 10% because they are at the sales process stage of evaluating just being converted from a lead.  No formal sales engagement has taken place yet.",
+          "Fiscal": "2007 4",
+          "FiscalQuarter": 4,
+          "FiscalYear": 2007,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000014tS1wQAE",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2022-11-12T07:02:14.000+0000",
+          "LastReferencedDate": null,
+          "LastStageChangeDate": null,
+          "LastViewedDate": null,
+          "LeadSource": "Word of mouth",
+          "Name": "Acme - 200 Widgets",
+          "NextStep": "Need estimate",
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2022-11-12T07:02:14.000+0000",
+          "Type": "Existing Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000014tS1wQAE"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.641313Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.055621Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000014tS1rQAE",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Global Media",
+          "Phone": "(905) 555-1212",
+          "Industry": "Media",
+          "PhotoUrl": "/services/images/photo/0016S00003GWiXbQAL",
+          "ShippingAddress": {
+            "city": "Toronto",
+            "country": "Canada",
+            "postalCode": "L4B 1Y3",
+            "state": "Ontario",
+            "street": "150 Chestnut Street"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GWiXbQAL",
+          "Amount": 500000,
+          "CampaignId": null,
+          "CloseDate": "2020-07-26",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2022-11-12T07:02:14.000+0000",
+          "Description": "Initial deal for 5000 widgets. We expect follow-on business with a potential upside of 40000 additional widgets over the next 12 months.",
+          "Fiscal": "2020 3",
+          "FiscalQuarter": 3,
+          "FiscalYear": 2020,
+          "ForecastCategory": "Closed",
+          "ForecastCategoryName": "Closed",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000014tS1rQAE",
+          "IsClosed": true,
+          "IsDeleted": false,
+          "IsWon": true,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": "0086S00002VDeOfQAL",
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-03T09:06:23.000+0000",
+          "LastReferencedDate": "2023-03-03T09:06:23.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-03-03T09:06:23.000+0000",
+          "LeadSource": "Advertisement",
+          "Name": "salesforce.com - 5000 Widgets",
+          "NextStep": "Closed!",
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 80,
+          "PushCount": 1,
+          "StageName": "Closed Won",
+          "SystemModstamp": "2023-03-03T09:06:23.000+0000",
+          "Type": "New Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000014tS1rQAE"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.567915Z",
+    "lastUpdateTime": "2023-05-09T00:20:01.979202Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000014tS1yQAE",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "salesforce.com",
+          "Phone": "(415) 901-7000",
+          "Website": "http://www.salesforce.com",
+          "Industry": "Technology",
+          "PhotoUrl": "/services/images/photo/0016S00003GWiXdQAL",
+          "ShippingAddress": {
+            "city": "San Francisco",
+            "country": "United States",
+            "postalCode": "94105",
+            "state": "California",
+            "street": "The Landmark @ One Market, Suite 300"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GWiXdQAL",
+          "Amount": 20000,
+          "CampaignId": null,
+          "CloseDate": "2023-10-26",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2022-11-12T07:02:14.000+0000",
+          "Description": "2023-04-26T10:29:03-07:00 Y-npTHetT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Fiscal": "2023 4",
+          "FiscalQuarter": 4,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000014tS1yQAE",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": "0086S00002W4AZRQA3",
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-05-03T18:14:34.000+0000",
+          "LastReferencedDate": "2023-05-03T18:14:33.000+0000",
+          "LastStageChangeDate": "2023-04-09T00:48:04.000+0000",
+          "LastViewedDate": "2023-05-03T18:14:33.000+0000",
+          "LeadSource": "Partner",
+          "Name": "Test Opp 2023-05-03T18:14:33Z 9gXi4ueaT",
+          "NextStep": "03/07/2023 : Review partner information updates and update opportunity details.",
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 1,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-05-03T18:14:34.000+0000",
+          "Type": "Existing Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000014tS1yQAE"
+          }
+        }
+      }
+    },
+    "metaInfo": {
+      "sourcePartner": "AWS",
+      "sharedPartners": [
+        "SALESFORCE"
+      ]
+    },
+    "creationTime": "2023-03-07T00:56:16.64909Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.045325Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016SEahQAG",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "AMO",
+          "Website": "amo.com",
+          "PhotoUrl": "/services/images/photo/0016S00003MOBiqQAH",
+          "ShippingAddress": {}
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003MOBiqQAH",
+          "Amount": null,
+          "CampaignId": null,
+          "CloseDate": "2023-03-30",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-03-17T19:12:20.000+0000",
+          "Description": null,
+          "Fiscal": "2023 1",
+          "FiscalQuarter": 1,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016SEahQAG",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-17T19:12:20.000+0000",
+          "LastReferencedDate": "2023-04-03T06:50:39.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-04-03T06:50:39.000+0000",
+          "LeadSource": null,
+          "Name": "Another Test Opportunity",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-03-17T19:12:20.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016SEahQAG"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-17T19:12:39.869522Z",
+    "lastUpdateTime": "2023-05-09T00:20:01.9995Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "HUBSPOT",
+    "id": "12468848176",
+    "info": {
+      "hubspotDeal": {
+        "_metadata": {
+          "id": "12468848176"
+        },
+        "associations": {
+          "company_collection__primary": {
+            "items": [
+              {
+                "address": "1 Microsoft Way",
+                "address2": null,
+                "city": "Redmond",
+                "country": "United States",
+                "industry": {
+                  "label": "Capital Markets",
+                  "value": "CAPITAL_MARKETS"
+                },
+                "name": "Contoso Foundation",
+                "state": "WA",
+                "website": "contoso.com"
+              }
+            ]
+          },
+          "contact_collection__deal_to_contact": {
+            "items": [
+              {
+                "company": "HubSpot",
+                "email": "bh@hubspot.com",
+                "firstname": "Brian",
+                "jobtitle": "CEO",
+                "lastname": "Halligan (Sample Contact)",
+                "phone": "+19172341234",
+                "photo": null
+              }
+            ]
+          }
+        },
+        "amount": "648",
+        "dealname": "Test Deal 2",
+        "dealstage": {
+          "value": "contractsent",
+          "label": "contractsent"
+        },
+        "dealtype": {
+          "value": "existingbusiness",
+          "label": "Existing Business"
+        },
+        "closedate": 1680306155740,
+        "createdate": 1678408981082,
+        "hubspot_owner_id": {
+          "firstname": "Shiman",
+          "lastname": "Guo",
+          "email": "shiman@suger.io",
+          "owner_id": 337139628
+        },
+        "hs_lastmodifieddate": 1678473953561,
+        "hs_deal_stage_probability": 0.9,
+        "hs_analytics_source": {
+          "value": "ORGANIC_SEARCH",
+          "label": "Organic Search"
+        },
+        "hs_next_step": "Keep follow"
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-10T01:21:16.766053Z",
+    "lastUpdateTime": "2023-03-31T22:21:04.206543Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016u7yTQAQ",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "StreamNative Inc.",
+          "Website": "https://wwww.streamnative.io/",
+          "Industry": "Technology",
+          "PhotoUrl": "/services/images/photo/0016S00003NjsxxQAB",
+          "ShippingAddress": {
+            "city": "San Francisco",
+            "country": "United States",
+            "postalCode": "94105",
+            "state": "California",
+            "street": "44 Tehama St"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003NjsxxQAB",
+          "Amount": 20001,
+          "CampaignId": null,
+          "CloseDate": "2023-06-29",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-04-03T19:30:27.000+0000",
+          "Description": "https://sugerinc.lightning.force.111/lightning/r/Opportunity/0066S000016P9itQAaaa\u0026count=3\u0026backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0066S000016P9itQAC%2Fview https://sugerinc.lightning.force.com/lightning/r/Opportunity/0066S000016P9itQAC/clone?useRecordTypeCheck=1\u0026count=3\u0026backgroundContext=%2Flightning%2Fr%2FOpportunity%2F0066S000016P9itQAC%2Fview",
+          "Fiscal": "2023 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016u7yTQAQ",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-04-25T21:25:03.000+0000",
+          "LastReferencedDate": "2023-04-25T21:25:03.000+0000",
+          "LastStageChangeDate": "2023-04-25T21:25:02.000+0000",
+          "LastViewedDate": "2023-04-25T21:25:03.000+0000",
+          "LeadSource": "Advertisement",
+          "Name": "Copy 5 - WeTube - Anti-Spam Localization",
+          "NextStep": "schedule demo",
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-04-25T21:25:03.000+0000",
+          "Type": "New Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016u7yTQAQ"
+          }
+        }
+      }
+    },
+    "metaInfo": {
+      "sourcePartner": "AWS",
+      "sharedPartners": [
+        "AWS"
+      ]
+    },
+    "creationTime": "2023-04-07T01:20:02.473496Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.021161Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000014tS1xQAE",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "salesforce.com",
+          "Phone": "(415) 901-7000",
+          "Website": "http://www.salesforce.com",
+          "Industry": "Technology",
+          "PhotoUrl": "/services/images/photo/0016S00003GWiXdQAL",
+          "ShippingAddress": {
+            "city": "San Francisco",
+            "country": "United States",
+            "postalCode": "94105",
+            "state": "California",
+            "street": "The Landmark @ One Market, Suite 300"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GWiXdQAL",
+          "Amount": 100000,
+          "CampaignId": null,
+          "CloseDate": "2020-08-28",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2022-11-12T07:02:14.000+0000",
+          "Description": "They are interested in our widgets!  The deal is at 90% because they are at the sales process stage of negotiating the finer points of a proposal that we submitted.  We are negotiating with their key decision makers and are confident that this deal will close soon.",
+          "Fiscal": "2007 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2007,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000014tS1xQAE",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2022-11-12T07:02:14.000+0000",
+          "LastReferencedDate": null,
+          "LastStageChangeDate": null,
+          "LastViewedDate": null,
+          "LeadSource": "Advertisement",
+          "Name": "salesforce.com - 1,000 Widgets",
+          "NextStep": "Close the deal!",
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 90,
+          "PushCount": 0,
+          "StageName": "Negotiation/Review",
+          "SystemModstamp": "2022-11-12T07:02:14.000+0000",
+          "Type": "New Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000014tS1xQAE"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.645188Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.04876Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016Qk7LQAS",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "AMO",
+          "Website": "amo.com",
+          "PhotoUrl": "/services/images/photo/0016S00003MOBiqQAH",
+          "ShippingAddress": {}
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003MOBiqQAH",
+          "Amount": null,
+          "CampaignId": null,
+          "CloseDate": "2023-03-31",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-02-27T05:22:06.000+0000",
+          "Description": null,
+          "Fiscal": "2023 1",
+          "FiscalQuarter": 1,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016Qk7LQAS",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-01T09:16:56.000+0000",
+          "LastReferencedDate": "2023-03-01T09:16:56.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-03-01T09:16:56.000+0000",
+          "LeadSource": null,
+          "Name": "MZ Inc - Key Service Security Consultation",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-03-01T09:16:56.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016Qk7LQAS"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.586365Z",
+    "lastUpdateTime": "2023-05-09T00:20:01.975695Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016QkNYQA0",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Contoso",
+          "PhotoUrl": "/services/images/photo/0016S00003MOBiHQAX",
+          "ShippingAddress": {}
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003MOBiHQAX",
+          "Amount": null,
+          "CampaignId": null,
+          "CloseDate": "2023-03-31",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-02-27T07:39:03.000+0000",
+          "Description": null,
+          "Fiscal": "2023 1",
+          "FiscalQuarter": 1,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016QkNYQA0",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-01T09:16:56.000+0000",
+          "LastReferencedDate": "2023-03-07T00:33:05.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-03-07T00:33:05.000+0000",
+          "LeadSource": null,
+          "Name": "Reactivate Contract with Dinnr.io",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-03-01T09:16:56.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016QkNYQA0"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.592135Z",
+    "lastUpdateTime": "2023-05-09T00:20:01.98616Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016tmSMQAY",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "StreamNative Inc.",
+          "Website": "https://wwww.streamnative.io/",
+          "Industry": "Technology",
+          "PhotoUrl": "/services/images/photo/0016S00003NjsxxQAB",
+          "ShippingAddress": {
+            "city": "San Francisco",
+            "country": "United States",
+            "postalCode": "94105",
+            "state": "California",
+            "street": "44 Tehama St"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003NjsxxQAB",
+          "Amount": 500,
+          "CampaignId": null,
+          "CloseDate": "2023-05-30",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-03-29T23:15:12.000+0000",
+          "Description": "Migrate from in-house AWS marketplace integration to Suger SaaS solution",
+          "Fiscal": "2023 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016tmSMQAY",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-29T23:15:12.000+0000",
+          "LastReferencedDate": "2023-04-05T06:57:42.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-04-05T06:57:42.000+0000",
+          "LeadSource": null,
+          "Name": "HOK Construction",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-03-29T23:15:12.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016tmSMQAY"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-29T23:15:23.114757Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.006102Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016uZXOQA2",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Ally Segal",
+          "Website": "www.example.com",
+          "Industry": "Telecommunications",
+          "PhotoUrl": "/services/images/photo/0016S00003NmfYxQAJ",
+          "ShippingAddress": {
+            "city": "East York",
+            "country": "Canada",
+            "postalCode": "M4G 0B7",
+            "state": "Ontario",
+            "street": "123 Example St"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {
+          "records": [
+            {
+              "Id": "00K6S00000QjLhCUAV",
+              "IsPrimary": true,
+              "ContactId": "0036S00005zLnTvQAK",
+              "Contact": {
+                "Name": "Helen Smith",
+                "Email": "helensmith@example.com",
+                "Phone": "-",
+                "Title": "COO"
+              }
+            }
+          ]
+        },
+        "Opportunity": {
+          "AccountId": "0016S00003NmfYxQAJ",
+          "Amount": 100,
+          "CampaignId": null,
+          "CloseDate": "2023-12-17",
+          "ContactId": "0036S00005zLnTvQAK",
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-04-09T01:45:43.000+0000",
+          "Description": "This is a test description that partners cannot update if it is an AWS referred opportunity. For partner-referred opportunities, this field can only be updateable during initial creation",
+          "Fiscal": "2023 4",
+          "FiscalQuarter": 4,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016uZXOQA2",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-04-09T01:45:44.000+0000",
+          "LastReferencedDate": "2023-04-09T21:30:20.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-04-09T21:30:20.000+0000",
+          "LeadSource": null,
+          "Name": "Partner Project Title - not editable if aws-led",
+          "NextStep": "Next steps on the opportunity. This is used to communicate to AWS the next action required, please update.",
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-04-09T01:45:44.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016uZXOQA2"
+          }
+        }
+      }
+    },
+    "metaInfo": {
+      "sourcePartner": "AWS",
+      "sharedPartners": [
+        "SALESFORCE"
+      ]
+    },
+    "creationTime": "2023-04-09T01:45:44.486176Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.013874Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016P9itQAC",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Test Account",
+          "Phone": "9178082123",
+          "Website": "wetube.com",
+          "Industry": "Banking",
+          "PhotoUrl": "/services/images/photo/0016S00003GOjUpQAL",
+          "ShippingAddress": {
+            "city": "Richmond",
+            "country": "Canada",
+            "postalCode": "V6X 1A3",
+            "state": "BC",
+            "street": "7551 Westminster Highway"
+          }
+        },
+        "Owner": {
+          "Name": "Chengjun Yuan",
+          "Email": "chengjun.sf@suger.io"
+        },
+        "OpportunityContactRoles": {
+          "records": [
+            {
+              "Id": "00K6S00000Pz5NTUAZ",
+              "ContactId": "0036S00005y4hTBQAY",
+              "Contact": {
+                "Name": "Howie Cook",
+                "Email": "howie@suger.io",
+                "Phone": "4342278392"
+              }
+            }
+          ]
+        },
+        "Opportunity": {
+          "AccountId": "0016S00003GOjUpQAL",
+          "Amount": 10000,
+          "CampaignId": null,
+          "CloseDate": "2023-03-31",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmGQAR",
+          "CreatedDate": "2023-02-06T01:12:45.000+0000",
+          "Description": "xyz opportunity description xyz opportunity description xyz opportunity description xyz opportunity description xyz opportunity description",
+          "Fiscal": "2023 1",
+          "FiscalQuarter": 1,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016P9itQAC",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": "0086S00002VD91RQAT",
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-31T06:29:44.000+0000",
+          "LastReferencedDate": "2023-04-28T02:41:28.000+0000",
+          "LastStageChangeDate": "2023-02-28T23:49:00.000+0000",
+          "LastViewedDate": "2023-04-28T02:41:28.000+0000",
+          "LeadSource": "Advertisement",
+          "Name": "WeTube - Anti-Spam Localization",
+          "NextStep": "schedule demo",
+          "OwnerId": "0056S00000HcpmGQAR",
+          "Pricebook2Id": null,
+          "Probability": 70,
+          "PushCount": 1,
+          "StageName": "Perception Analysis",
+          "SystemModstamp": "2023-03-31T06:29:45.000+0000",
+          "Type": "New Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016P9itQAC"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.626124Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.031548Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016QkO2QAK",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "AMO",
+          "Website": "amo.com",
+          "PhotoUrl": "/services/images/photo/0016S00003MOBiqQAH",
+          "ShippingAddress": {}
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003MOBiqQAH",
+          "Amount": null,
+          "CampaignId": null,
+          "CloseDate": "2023-03-31",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-02-27T07:44:31.000+0000",
+          "Description": null,
+          "Fiscal": "2023 1",
+          "FiscalQuarter": 1,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Omitted",
+          "ForecastCategoryName": "Omitted",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016QkO2QAK",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-01T09:16:56.000+0000",
+          "LastReferencedDate": "2023-03-02T04:03:08.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-03-02T04:03:08.000+0000",
+          "LeadSource": null,
+          "Name": "Banana Corp SZ - Factory Automation",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 0,
+          "PushCount": 0,
+          "StageName": "ABABABABA",
+          "SystemModstamp": "2023-03-01T09:16:56.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016QkO2QAK"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.611032Z",
+    "lastUpdateTime": "2023-05-07T21:20:01.774613Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016vzSpQAI",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Ally Segal",
+          "Website": "www.example.com",
+          "Industry": "Telecommunications",
+          "PhotoUrl": "/services/images/photo/0016S00003NmfYxQAJ",
+          "ShippingAddress": {
+            "city": "East York",
+            "country": "Canada",
+            "postalCode": "M4G 0B7",
+            "state": "Ontario",
+            "street": "123 Example St"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003NmfYxQAJ",
+          "Amount": 5550,
+          "CampaignId": null,
+          "CloseDate": "2024-04-23",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-04-24T17:01:02.000+0000",
+          "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Fiscal": "2024 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2024,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016vzSpQAI",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-05-01T19:25:02.000+0000",
+          "LastReferencedDate": "2023-05-01T19:25:02.000+0000",
+          "LastStageChangeDate": "2023-05-01T19:25:02.000+0000",
+          "LastViewedDate": "2023-05-01T19:25:02.000+0000",
+          "LeadSource": null,
+          "Name": "Low Prob Opp",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-05-01T19:25:02.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016vzSpQAI"
+          }
+        }
+      }
+    },
+    "metaInfo": {
+      "sourcePartner": "AWS",
+      "sharedPartners": [
+        "AWS"
+      ]
+    },
+    "creationTime": "2023-04-24T17:03:17.622207Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.041785Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016uzYRQAY",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Brotherhood of Mutants",
+          "Website": "brotherhoodofmutants.com",
+          "Industry": "Chemicals",
+          "PhotoUrl": "/services/images/photo/0016S00003Nnk1BQAR",
+          "ShippingAddress": {
+            "city": "Redmond",
+            "country": "United States",
+            "postalCode": "98052",
+            "state": "WA",
+            "street": "1 Microsoft Way"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003Nnk1BQAR",
+          "Amount": 648,
+          "CampaignId": null,
+          "CloseDate": "2024-04-24",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-04-13T23:34:52.000+0000",
+          "Description": "This must have 50 or more characters.. This must have 50 or more characters..",
+          "Fiscal": "2024 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2024,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016uzYRQAY",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-04-25T21:25:02.000+0000",
+          "LastReferencedDate": "2023-04-25T21:25:02.000+0000",
+          "LastStageChangeDate": "2023-04-14T15:25:04.000+0000",
+          "LastViewedDate": "2023-04-25T21:25:02.000+0000",
+          "LeadSource": null,
+          "Name": "Brotherhood of Mutants Opp 1",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-04-25T21:25:02.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016uzYRQAY"
+          }
+        }
+      }
+    },
+    "metaInfo": {
+      "sourcePartner": "AWS",
+      "sharedPartners": [
+        "AWS"
+      ]
+    },
+    "creationTime": "2023-04-13T23:35:21.72451Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.017412Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016uyorQAA",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Relaxed Prairie Dog",
+          "Website": "RelaxedPrairieDog.com",
+          "Industry": "Banking",
+          "PhotoUrl": "/services/images/photo/0016S00003NniU2QAJ",
+          "ShippingAddress": {
+            "city": "Redmond",
+            "country": "United States",
+            "postalCode": "98052",
+            "state": "Washington",
+            "street": "1 Microsoft Way"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003NniU2QAJ",
+          "Amount": 3000,
+          "CampaignId": null,
+          "CloseDate": "2024-04-17",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-04-13T20:59:26.000+0000",
+          "Description": "Test opportunity. Test opportunity. Test opportunity. Test opportunity. Test opportunity. Test opportunity. Test opportunity.",
+          "Fiscal": "2024 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2024,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016uyorQAA",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-04-25T21:25:03.000+0000",
+          "LastReferencedDate": "2023-04-25T22:12:55.000+0000",
+          "LastStageChangeDate": "2023-04-14T15:25:03.000+0000",
+          "LastViewedDate": "2023-04-25T22:12:55.000+0000",
+          "LeadSource": null,
+          "Name": "Relaxed Prairie Dog Opp 1",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 10,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-04-25T21:25:03.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016uyorQAA"
+          }
+        }
+      }
+    },
+    "metaInfo": {
+      "sourcePartner": "AWS",
+      "sharedPartners": [
+        "AWS"
+      ]
+    },
+    "creationTime": "2023-04-13T20:59:39.160284Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.026677Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016QkNiQAK",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Test Account",
+          "Phone": "9178082123",
+          "Website": "wetube.com",
+          "Industry": "Banking",
+          "PhotoUrl": "/services/images/photo/0016S00003GOjUpQAL",
+          "ShippingAddress": {
+            "city": "Richmond",
+            "country": "Canada",
+            "postalCode": "V6X 1A3",
+            "state": "BC",
+            "street": "7551 Westminster Highway"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GOjUpQAL",
+          "Amount": null,
+          "CampaignId": null,
+          "CloseDate": "2023-03-31",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-02-27T07:40:51.000+0000",
+          "Description": null,
+          "Fiscal": "2023 1",
+          "FiscalQuarter": 1,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Omitted",
+          "ForecastCategoryName": "Omitted",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016QkNiQAK",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-01T09:16:56.000+0000",
+          "LastReferencedDate": "2023-03-01T09:16:56.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-03-01T09:16:56.000+0000",
+          "LeadSource": null,
+          "Name": "AnnaCloud - Marketplace Onboarding",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 0,
+          "PushCount": 0,
+          "StageName": "ABABABABA",
+          "SystemModstamp": "2023-03-01T09:16:56.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016QkNiQAK"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.578282Z",
+    "lastUpdateTime": "2023-05-07T21:20:01.727135Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000014ClWSQA0",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Test Account",
+          "Phone": "9178082123",
+          "Website": "wetube.com",
+          "Industry": "Banking",
+          "PhotoUrl": "/services/images/photo/0016S00003GOjUpQAL",
+          "ShippingAddress": {
+            "city": "Richmond",
+            "country": "Canada",
+            "postalCode": "V6X 1A3",
+            "state": "BC",
+            "street": "7551 Westminster Highway"
+          }
+        },
+        "Owner": {
+          "Name": "Chengjun Yuan",
+          "Email": "chengjun.sf@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GOjUpQAL",
+          "Amount": 200,
+          "CampaignId": null,
+          "CloseDate": "2022-12-10",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmGQAR",
+          "CreatedDate": "2022-11-18T05:15:37.000+0000",
+          "Description": null,
+          "Fiscal": "2022 4",
+          "FiscalQuarter": 4,
+          "FiscalYear": 2022,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000014ClWSQA0",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmGQAR",
+          "LastModifiedDate": "2022-11-18T05:15:37.000+0000",
+          "LastReferencedDate": "2023-03-20T19:21:16.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-03-20T19:21:16.000+0000",
+          "LeadSource": "Partner",
+          "Name": "Test",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmGQAR",
+          "Pricebook2Id": null,
+          "Probability": 75,
+          "PushCount": 0,
+          "StageName": "Proposal/Price Quote",
+          "SystemModstamp": "2022-11-18T05:15:37.000+0000",
+          "Type": "New Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000014ClWSQA0"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.72163Z",
+    "lastUpdateTime": "2023-05-09T00:20:01.993387Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016w9E3QAI",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Relaxed Prairie Dog",
+          "Website": "RelaxedPrairieDog.com",
+          "Industry": "Banking",
+          "PhotoUrl": "/services/images/photo/0016S00003NniU2QAJ",
+          "ShippingAddress": {
+            "city": "Redmond",
+            "country": "United States",
+            "postalCode": "98052",
+            "state": "Washington",
+            "street": "1 Microsoft Way"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003NniU2QAJ",
+          "Amount": 6000,
+          "CampaignId": null,
+          "CloseDate": "2024-04-17",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-04-25T22:13:06.000+0000",
+          "Description": "Test opportunity. Test opportunity. Test opportunity. Test opportunity. Test opportunity. Test opportunity. Test opportunity.",
+          "Fiscal": "2024 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2024,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016w9E3QAI",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-04-25T22:16:57.000+0000",
+          "LastReferencedDate": "2023-04-28T19:05:24.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-04-28T19:05:24.000+0000",
+          "LeadSource": null,
+          "Name": "Relaxed Prairie Dog Opp 2",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 80,
+          "PushCount": 0,
+          "StageName": "Prospecting",
+          "SystemModstamp": "2023-04-25T22:16:57.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016w9E3QAI"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-04-25T22:17:01.80882Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.035193Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016vzSaQAI",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Ally Segal",
+          "Website": "www.example.com",
+          "Industry": "Telecommunications",
+          "PhotoUrl": "/services/images/photo/0016S00003NmfYxQAJ",
+          "ShippingAddress": {
+            "city": "East York",
+            "country": "Canada",
+            "postalCode": "M4G 0B7",
+            "state": "Ontario",
+            "street": "123 Example St"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003NmfYxQAJ",
+          "Amount": 5550,
+          "CampaignId": null,
+          "CloseDate": "2024-04-23",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-04-24T17:00:41.000+0000",
+          "Description": null,
+          "Fiscal": "2024 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2024,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016vzSaQAI",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-04-24T17:00:41.000+0000",
+          "LastReferencedDate": "2023-04-28T19:22:41.000+0000",
+          "LastStageChangeDate": null,
+          "LastViewedDate": "2023-04-28T19:22:41.000+0000",
+          "LeadSource": null,
+          "Name": "High Prob Opp",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 95,
+          "PushCount": 0,
+          "StageName": "Qualification",
+          "SystemModstamp": "2023-04-24T17:00:41.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016vzSaQAI"
+          }
+        }
+      }
+    },
+    "metaInfo": {
+      "sharedPartners": [
+        "AWS"
+      ]
+    },
+    "creationTime": "2023-04-24T17:01:20.8991Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.038518Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000014tS1vQAE",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Acme",
+          "Phone": "(212) 555-5555",
+          "Industry": "Manufacturing",
+          "PhotoUrl": "/services/images/photo/0016S00003GWiXcQAL",
+          "ShippingAddress": {
+            "city": "New York",
+            "country": "USA",
+            "postalCode": "31349",
+            "state": "NY",
+            "street": "10 Main Rd."
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GWiXcQAL",
+          "Amount": 70000,
+          "CampaignId": null,
+          "CloseDate": "2020-10-24",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2022-11-12T07:02:14.000+0000",
+          "Description": "The deal is at 20% because they are at the sales process stage of defining their requirements.  It is not clear whether our solutions are a good fit or not but they are willing to discuss this in detail.",
+          "Fiscal": "2007 3",
+          "FiscalQuarter": 3,
+          "FiscalYear": 2007,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000014tS1vQAE",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2022-11-12T07:02:14.000+0000",
+          "LastReferencedDate": null,
+          "LastStageChangeDate": null,
+          "LastViewedDate": null,
+          "LeadSource": "Trade Show",
+          "Name": "Acme - 600 Widgets",
+          "NextStep": "Need estimate",
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 20,
+          "PushCount": 0,
+          "StageName": "Needs Analysis",
+          "SystemModstamp": "2022-11-12T07:02:14.000+0000",
+          "Type": "New Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000014tS1vQAE"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.63744Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.0522Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000016QxLpQAK",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "AMO",
+          "Website": "amo.com",
+          "PhotoUrl": "/services/images/photo/0016S00003MOBiqQAH",
+          "ShippingAddress": {}
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003MOBiqQAH",
+          "Amount": 20000,
+          "CampaignId": null,
+          "CloseDate": "2023-03-29",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2023-03-01T06:25:11.000+0000",
+          "Description": "Porting visual signals from geo data providers to their platform. Data should be preprocessed with shallow analysis.",
+          "Fiscal": "2023 1",
+          "FiscalQuarter": 1,
+          "FiscalYear": 2023,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000016QxLpQAK",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": "0086S00002VDBfSQAX",
+          "LastCloseDateChangedHistoryId": "0086S00002VDBeoQAH",
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2023-03-01T09:06:49.000+0000",
+          "LastReferencedDate": "2023-03-01T09:06:48.000+0000",
+          "LastStageChangeDate": "2023-03-01T09:06:48.000+0000",
+          "LastViewedDate": "2023-03-01T09:06:48.000+0000",
+          "LeadSource": "Advertisement",
+          "Name": "AMO Inc - Agricultural Geographical Analysis",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 20,
+          "PushCount": 1,
+          "StageName": "Needs Analysis",
+          "SystemModstamp": "2023-03-01T09:06:49.000+0000",
+          "Type": null,
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000016QxLpQAK"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.595887Z",
+    "lastUpdateTime": "2023-05-09T00:20:01.971643Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000014tS1sQAE",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Global Media",
+          "Phone": "(905) 555-1212",
+          "Industry": "Media",
+          "PhotoUrl": "/services/images/photo/0016S00003GWiXbQAL",
+          "ShippingAddress": {
+            "city": "Toronto",
+            "country": "Canada",
+            "postalCode": "L4B 1Y3",
+            "state": "Ontario",
+            "street": "150 Chestnut Street"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GWiXbQAL",
+          "Amount": 50000,
+          "CampaignId": null,
+          "CloseDate": "2020-07-26",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2022-11-12T07:02:14.000+0000",
+          "Description": "Initial deal for 500 widgets. We expect follow-on business with a potential upside of 4000 additional widgets over the next 12 months.",
+          "Fiscal": "2007 2",
+          "FiscalQuarter": 2,
+          "FiscalYear": 2007,
+          "ForecastCategory": "Closed",
+          "ForecastCategoryName": "Closed",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000014tS1sQAE",
+          "IsClosed": true,
+          "IsDeleted": false,
+          "IsWon": true,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2022-11-12T07:02:14.000+0000",
+          "LastReferencedDate": null,
+          "LastStageChangeDate": null,
+          "LastViewedDate": null,
+          "LeadSource": "Advertisement",
+          "Name": "salesforce.com - 500 Widgets",
+          "NextStep": "Closed!",
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 100,
+          "PushCount": 0,
+          "StageName": "Closed Won",
+          "SystemModstamp": "2022-11-12T07:02:14.000+0000",
+          "Type": "Existing Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000014tS1sQAE"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.629912Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.058997Z"
+  },
+  {
+    "organizationID": "w43Vc6UfM",
+    "partner": "SALESFORCE",
+    "id": "0066S000014tS1tQAE",
+    "info": {
+      "salesforceOpportunity": {
+        "Account": {
+          "Name": "Global Media",
+          "Phone": "(905) 555-1212",
+          "Industry": "Media",
+          "PhotoUrl": "/services/images/photo/0016S00003GWiXbQAL",
+          "ShippingAddress": {
+            "city": "Toronto",
+            "country": "Canada",
+            "postalCode": "L4B 1Y3",
+            "state": "Ontario",
+            "street": "150 Chestnut Street"
+          }
+        },
+        "Owner": {
+          "Name": "Shiman Guo",
+          "Email": "shiman@suger.io"
+        },
+        "OpportunityContactRoles": {},
+        "Opportunity": {
+          "AccountId": "0016S00003GWiXbQAL",
+          "Amount": 40000,
+          "CampaignId": null,
+          "CloseDate": "2020-09-26",
+          "ContactId": null,
+          "CreatedById": "0056S00000HcpmLQAR",
+          "CreatedDate": "2022-11-12T07:02:14.000+0000",
+          "Description": "The deal is at 60% because they are still at the sales process stage of getting buy-in from the key decision makers.",
+          "Fiscal": "2007 3",
+          "FiscalQuarter": 3,
+          "FiscalYear": 2007,
+          "ForecastCategory": "Pipeline",
+          "ForecastCategoryName": "Pipeline",
+          "HasOpenActivity": false,
+          "HasOpportunityLineItem": false,
+          "HasOverdueTask": false,
+          "Id": "0066S000014tS1tQAE",
+          "IsClosed": false,
+          "IsDeleted": false,
+          "IsWon": false,
+          "LastActivityDate": null,
+          "LastAmountChangedHistoryId": null,
+          "LastCloseDateChangedHistoryId": null,
+          "LastModifiedById": "0056S00000HcpmLQAR",
+          "LastModifiedDate": "2022-11-12T07:02:14.000+0000",
+          "LastReferencedDate": null,
+          "LastStageChangeDate": null,
+          "LastViewedDate": null,
+          "LeadSource": "Partner",
+          "Name": "Global Media - 400 Widgets",
+          "NextStep": null,
+          "OwnerId": "0056S00000HcpmLQAR",
+          "Pricebook2Id": null,
+          "Probability": 60,
+          "PushCount": 0,
+          "StageName": "Id. Decision Makers",
+          "SystemModstamp": "2022-11-12T07:02:14.000+0000",
+          "Type": "New Business",
+          "attributes": {
+            "type": "Opportunity",
+            "url": "/services/data/v56.0/sobjects/Opportunity/0066S000014tS1tQAE"
+          }
+        }
+      }
+    },
+    "metaInfo": {},
+    "creationTime": "2023-03-07T00:56:16.633855Z",
+    "lastUpdateTime": "2023-05-09T00:20:02.062242Z"
+  }
+]

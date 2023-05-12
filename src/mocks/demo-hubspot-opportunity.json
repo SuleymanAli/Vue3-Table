@@ -1,0 +1,71 @@
+{
+  "organizationID": "w43Vc6UfM",
+  "partner": "HUBSPOT",
+  "id": "12263198292",
+  "info": {
+    "hubspotDeal": {
+      "_metadata": {
+        "id": "12263198292"
+      },
+      "associations": {
+        "company_collection__primary": {
+          "items": [
+            {
+              "address": "1 Microsoft Way",
+              "address2": null,
+              "city": "Redmond",
+              "country": "United States",
+              "industry": {
+                "label": "Capital Markets",
+                "value": "CAPITAL_MARKETS"
+              },
+              "name": "Contoso Foundation",
+              "state": "WA",
+              "website": "contoso.com"
+            }
+          ]
+        },
+        "contact_collection__deal_to_contact": {
+          "items": [
+            {
+              "company": "HubSpot",
+              "email": "bh@hubspot.com",
+              "firstname": "Brian",
+              "jobtitle": "CEO",
+              "lastname": "Halligan (Sample Contact)",
+              "phone": "+19172341234",
+              "photo": null
+            }
+          ]
+        }
+      },
+      "amount": "648",
+      "dealname": "Test Deal 1",
+      "dealstage": {
+        "value": "qualifiedtobuy",
+        "label": "qualifiedtobuy"
+      },
+      "dealtype": {
+        "value": "newbusiness",
+        "label": "New Business"
+      },
+      "closedate": 1677548855906,
+      "createdate": 1677030481566,
+      "hubspot_owner_id": {
+        "firstname": "Shiman",
+        "lastname": "Guo",
+        "email": "shiman@suger.io",
+        "owner_id": 337139628
+      },
+      "hs_lastmodifieddate": 1677030483001,
+      "hs_deal_stage_probability": 0.4,
+      "hs_analytics_source": {
+        "value": "OFFLINE",
+        "label": "Offline Sources"
+      }
+    }
+  },
+  "metaInfo": {},
+  "creationTime": "2023-03-07T01:21:15.904196Z",
+  "lastUpdateTime": "2023-03-31T22:21:04.20264Z"
+}
