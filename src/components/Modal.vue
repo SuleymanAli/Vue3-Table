@@ -1,23 +1,22 @@
 <script setup>
-import { onMounted, onUpdated, ref } from 'vue'
+import { onUpdated } from 'vue'
+
 const emit = defineEmits(['closeModal'])
 const props = defineProps({
+  data: {
+    type: Object,
+    required: true,
+    default: {},
+  },
   openStatus: {
     type: Boolean,
     required: true,
     default: false,
   },
 })
-onMounted(() => {
-  console.log(props.openStatus)
-})
 onUpdated(() => {
-  console.log(props.openStatus)
+  console.log(props.data)
 })
-function onToggle(e) {
-  console.log('click', e.target)
-  emit('closeModal')
-}
 </script>
 
 <template>
@@ -32,71 +31,69 @@ function onToggle(e) {
       <div class="relative z-10 m-auto max-h-full w-full max-w-2xl">
         <!-- Modal content -->
         <div class="relative rounded-lg bg-white shadow dark:bg-gray-700">
-          <!-- Modal header -->
-          <div
-            class="flex items-start justify-between rounded-t border-b p-4 dark:border-gray-600"
-          >
-            <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-              Info
-            </h3>
-            <button
-              type="button"
-              class="ml-auto inline-flex items-center rounded-lg bg-transparent p-1.5 text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
-              @click="$emit('closeModal')"
-            >
-              <svg
-                aria-hidden="true"
-                class="h-5 w-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              <span class="sr-only">Close modal</span>
-            </button>
-          </div>
-          <!-- Modal body -->
           <div class="space-y-6 p-6">
-            <p
-              class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
-            >
-              With less than a month to go before the European Union enacts new
-              consumer privacy laws for its citizens, companies around the world
-              are updating their terms of service agreements to comply.
-            </p>
-            <p
-              class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
-            >
-              The European Union’s General Data Protection Regulation (G.D.P.R.)
-              goes into effect on May 25 and is meant to ensure a common set of
-              data rights in the European Union. It requires organizations to
-              notify users as soon as possible of high-risk data breaches that
-              could personally affect them.
-            </p>
-          </div>
-          <!-- Modal footer -->
-          <div
-            class="flex items-center space-x-2 rounded-b border-t border-gray-200 p-6 dark:border-gray-600"
-          >
-            <button
-              data-modal-hide="defaultModal"
-              type="button"
-              class="bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded-lg px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4"
-            >
-              I accept
-            </button>
-            <button
-              data-modal-hide="defaultModal"
-              type="button"
-              class="focus:ring-blue-300 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-900 focus:z-10 focus:outline-none focus:ring-4 dark:border-gray-500 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-600"
-            >
-              Decline
-            </button>
+            <div>
+              <div class="flex-auto justify-center p-3 leading-6">
+                <h2 class="py-4 text-2xl font-bold">User Information</h2>
+                <div class="my-2 flex justify-between">
+                  <p>ID:</p>
+                  <p class="text-md px-8 text-gray-500">
+                    {{ props.data.id }}
+                  </p>
+                </div>
+                <hr />
+                <div class="my-2 flex justify-between">
+                  <p class="capitalize">Name:</p>
+                  <p class="text-md px-8 text-gray-500">
+                    {{ props.data.firstname }}
+                  </p>
+                </div>
+                <hr />
+                <div class="my-2 flex justify-between">
+                  <p class="capitalize">Email:</p>
+                  <p class="text-md px-8 text-gray-500">
+                    {{ props.data.email }}
+                  </p>
+                </div>
+                <hr />
+                <div class="my-2 flex justify-between">
+                  <p class="capitalize">Partner:</p>
+                  <p class="text-md px-8 text-gray-500">
+                    {{ props.data.partner }}
+                  </p>
+                </div>
+                <hr />
+                <div class="my-2 flex justify-between">
+                  <p class="capitalize">Organization ID:</p>
+                  <p class="text-md px-8 text-gray-500">
+                    {{ props.data.organizationID }}
+                  </p>
+                </div>
+                <hr />
+                <div class="my-2 flex justify-between">
+                  <p class="capitalize">Creation Time:</p>
+                  <p class="text-md px-8 text-gray-500">
+                    {{ props.data.date }}
+                  </p>
+                </div>
+                <hr />
+                <div class="my-2 flex justify-between">
+                  <p class="capitalize">Update Time:</p>
+                  <p class="text-md px-8 text-gray-500">
+                    {{ props.data.updatedDate }}
+                  </p>
+                </div>
+                <hr />
+              </div>
+              <div class="mt-2 space-x-4 p-3 text-center md:block">
+                <button
+                  @click="$emit('closeModal')"
+                  class="mb-2 rounded-md border-2 border-black bg-primary px-5 py-2 text-sm font-medium tracking-wider text-black shadow-sm transition hover:bg-gray-100 hover:shadow-md md:mb-0"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
