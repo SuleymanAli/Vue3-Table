@@ -22,19 +22,23 @@ function formatDate(date) {
 const modalIsOpen = ref(false)
 function handleModalShowing(id) {
   modalIsOpen.value = !modalIsOpen.value
-  console.log(modalIsOpen.value)
 }
 
 /* Pagination */
-const perPage = ref(10)
+const perPage = ref(20)
 const currentPage = ref(1)
 const totalItem = ref(store.data.length)
 const totalPages = computed(() => {
   return Math.floor(totalItem.value / perPage.value) + 1
 })
+
 function onPageChange(page) {
   currentPage.value = page
 }
+function onPerPageChange(count) {
+  perPage.value = count
+}
+
 const filteredItems = computed(() => {
   let result = store.data.slice(
     (currentPage.value - 1) * perPage.value,
@@ -177,36 +181,17 @@ const filteredItems = computed(() => {
         </table>
       </div>
       <!-- Pagination -->
-      <div class="my-10 flex items-center justify-end space-x-6">
-        <div>
-          <label for="dropdown">Rows Per Page:</label>
-          <select name="" id="dropdown" v-model="perPage">
-            <option value="10">10</option>
-            <option value="20">20</option>
-            <option value="30">30</option>
-          </select>
-        </div>
-        <Pagination
-          :total-pages="totalPages"
-          :total="totalItem"
-          :per-page="perPage"
-          :current-page="currentPage"
-          @pagechanged="onPageChange"
-        />
-      </div>
+      <Pagination
+        :total-pages="totalPages"
+        :total="totalItem"
+        :per-page="perPage"
+        :current-page="currentPage"
+        @pagechanged="onPageChange"
+        @perpagechanged="onPerPageChange"
+      />
     </div>
-    <!-- Modal toggle -->
-    <button
-      data-modal-target="defaultModal"
-      data-modal-toggle="defaultModal"
-      class="bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 block rounded-lg px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4"
-      type="button"
-    >
-      Toggle modal
-    </button>
-    <Modal :openStatus="modalIsOpen" />
-
-    <!-- Main modal -->
+    <!-- Modal -->
+    <Modal :openStatus="modalIsOpen" @closeModal="modalIsOpen = !modalIsOpen" />
   </div>
 </template>
 
