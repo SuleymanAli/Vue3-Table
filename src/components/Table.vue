@@ -1,5 +1,6 @@
 <script setup>
-import { computed, onMounted, reactive, ref } from 'vue'
+import { computed, onMounted, reactive, ref, watch } from 'vue'
+import { storeToRefs } from 'pinia'
 import { useDataStore } from '@/store/'
 import IconDocument from '@/components/icons/Document.vue'
 import Modal from '@/components/Modal.vue'
@@ -8,6 +9,9 @@ import Filter from '@/components/Filter.vue'
 
 /* store */
 const store = useDataStore()
+onMounted(() => {
+  store.optimizeData()
+})
 
 /* Modal */
 const modalIsOpen = ref(false)
@@ -18,13 +22,12 @@ function handleModalShowing(data) {
 }
 
 /* Pagination */
-const perPage = ref(20)
+const perPage = ref(10)
 const currentPage = ref(1)
 const totalItem = ref(store.data.length)
-const totalPages = computed(() => {
-  return Math.floor(totalItem.value / perPage.value) + 1
-})
-
+const totalPages = computed(
+  () => Math.floor(totalItem.value / perPage.value) + 1
+)
 function onPageChange(page) {
   currentPage.value = page
 }
@@ -33,7 +36,7 @@ function onPerPageChange(count) {
 }
 
 const filteredItems = computed(() => {
-  let result = store.formattedData.slice(
+  let result = store.filteredData.slice(
     (currentPage.value - 1) * perPage.value,
     currentPage.value * perPage.value
   )
@@ -66,7 +69,7 @@ const filteredItems = computed(() => {
               <th scope="col" class="px-6 py-3"></th>
             </tr>
           </thead>
-          <tbody>
+          <tbody v-if="filteredItems.length > 0">
             <tr
               class="border-b bg-white dark:border-gray-700 dark:bg-gray-800"
               v-for="(item, index) in filteredItems"
@@ -94,7 +97,7 @@ const filteredItems = computed(() => {
                 {{ item.date }}
               </td>
               <td class="px-6 py-4">
-                {{ item.value }}
+                {{ item.stage }}
               </td>
               <td class="px-6 py-4">
                 <IconDocument
@@ -104,6 +107,9 @@ const filteredItems = computed(() => {
               </td>
             </tr>
           </tbody>
+          <template v-else>
+            <p class="p-4 text-center">Data Not Fount</p>
+          </template>
         </table>
       </div>
       <!-- Pagination -->
