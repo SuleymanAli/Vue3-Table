@@ -1,6 +1,4 @@
 <script setup>
-import { onUpdated } from 'vue'
-
 const emit = defineEmits(['closeModal'])
 const props = defineProps({
   data: {
@@ -13,9 +11,6 @@ const props = defineProps({
     required: true,
     default: false,
   },
-})
-onUpdated(() => {
-  console.log(props.data)
 })
 </script>
 

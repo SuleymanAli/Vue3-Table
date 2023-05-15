@@ -75,7 +75,6 @@ export const useDataStore = defineStore('data', {
           if (typeof data[key] === 'string') {
             return data[key].toUpperCase().includes(search.toUpperCase())
           } else {
-            console.log(data[key])
             return data[key] === Number(search)
           }
         })

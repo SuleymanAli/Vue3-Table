@@ -25,9 +25,9 @@ function handleModalShowing(data) {
 const perPage = ref(10)
 const currentPage = ref(1)
 const totalItem = ref(store.data.length)
-const totalPages = computed(
-  () => Math.floor(totalItem.value / perPage.value) + 1
-)
+const totalPages = computed(() => {
+  return Math.floor(totalItem.value / perPage.value) + 1
+})
 function onPageChange(page) {
   currentPage.value = page
 }
@@ -36,6 +36,7 @@ function onPerPageChange(count) {
 }
 
 const filteredItems = computed(() => {
+  totalItem.value = store.filteredData.length
   let result = store.filteredData.slice(
     (currentPage.value - 1) * perPage.value,
     currentPage.value * perPage.value
